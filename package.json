@@ -4,12 +4,16 @@
   "description": "Discord bot for Umamusume",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Romulus Tsai",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.1.2"
+    "@discordjs/rest": "^1.0.1",
+    "@googleapis/youtube": "^6.0.0",
+    "discord.js": "^14.1.2",
+    "sqlite3": "^5.0.11"
   },
   "devDependencies": {
     "eslint": "^8.21.0"
