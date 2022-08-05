@@ -7,7 +7,7 @@ async function parseShortcuts(word) {
     if (res.length > 0) {
         return res[Math.floor(res.length * Math.random())].content;
     } else {
-        return `無此指令：${word}`;
+        return null;
     }
 }
 
